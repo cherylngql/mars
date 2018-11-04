@@ -1,0 +1,1 @@
+alert("Successfully connected to JS!");
