@@ -1,3 +1,25 @@
-h1 {
-  color: blue;
+body {
+  height: 100vh;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  color: #444;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#board {
+  border: 1px solid #ddd;
+}
+
+#board td{
+  border: 1px solid #ddd;
+  width: 30px;
+  height: 30px;
+}
+
+#board td.bot {
+  background-color: blue;
 }
