@@ -11,6 +11,30 @@
 <body>
   <div id="container">
     <div id="board"></div>
+    <div id="info">
+      <div id="legends">
+        <div class="single-legend">
+          <div class="legend node"></div><p> --- nodes</p>
+        </div>
+        <div class="single-legend">
+          <div class="legend bot"></div><p> --- bots</p>
+        </div>
+        <div class="single-legend">
+          <div class="legend node bot"></div><p> --- overlap</p>
+        </div>
+      </div>
+      <div id="selected">
+        <div id="click">Click on any highlighted cube for its current information.</div>
+        <div id="selected-bot">
+          <div class="left"></div>
+          <div class="right"></div>
+        </div>
+        <div id="selected-node">
+          <div class="left"></div>
+          <div class="right"></div>
+        </div>
+      </div>
+    </div>
   </div>
   <script src="app.js"></script>
   <script src="view.js"></script>
